@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:site_name" content="Resin Surf Shop">
+    <meta property="og:description" content="Resin Surf Shop allows you to shop for surf related products, sell your surfboards wihtout the hassle of doing it on your own, and will repair anything from minor dings to buckled boards.">
+    <meta property="og:title" content="Shop, Sell, or get a quote for a repair">
+    <meta property="og:image" content="./images/sell.jpg">
+    <meta name="description" content="Resin Surf Shop allows you to shop for surf related products, sell your surfboards wihtout the hassle of doing it on your own, and will repair anything from minor dings to buckled boards.">
+    <link rel="icon" type="image" href="./images/ResinLogo.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Resin Surf Shop</title>
+</head>
+<body>
+    <header>
+        <nav class="header__nav">
+            <h1 class="header__h1">RESIN</h1>
+            <ul class="header__ul_visible">
+                <li class="header__list-item"><a href="index.html">Home</a></li>
+                <li class="header__list-item"><a href="#">Shop</a></li>
+                <li class="header__list-item"><a href="#">Sell</a></li>
+                <li class="header__list-item"><a href="#">Repair</a></li>
+                <li class="header__list-item"><a href="#">Contact</a></li>
+                <li class="header__list-item"><a href="#">Cart</a></li>
+            </ul>
+            <div class="header__ul_hamburger-menu-hidden-toggle">
+                <input type="checkbox" class="header__input_toggle-display" aria-label="button">
+                <div class="header__ul_hamburger-menu-line"></div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="hero__div_overlay"></div>
+        <section class="hero">
+            <div class="hero__div_description">
+                <h2 class="hero__h2">The Search</h2>
+                <p class="hero__p">Find a new surfboard that best suits your ability</p>
+                <button class="hero__btn_active btn-primary btn" role="button" >SHOP</button>
+            </div>
+            <figure class="hero__figure">
+                <img class="hero__img" src="./images/heroImage.jpg" alt="Aerial view of white sand beach" height="500px">
+            </figure>
+        </section>
+        <section class="showcase">
+            <div class="showcase__div">
+                <figure class="showcase__figure">
+                    <img class="showcase__img" src="./images/repairs.jpg" alt="Red, Green, and Yellow surfboards against white wall" width="200px">
+                    <button class="showcase__button_active btn-primary btn">REPAIRS</button>
+                    <p class="showcase__p"><span class="showcase__span_bold">B</span>ring a dinged up board for a 
+                        quick in person estimate click
+                        the repairs button above to 
+                        contact us with some basic 
+                        information on the damages 
+                        you want taken care of.   
+                    </p>
+                </figure>
+            </div>
+            <div class="showcase__div">
+                <figure class="showcase__figure">
+                    <img class="showcase__img" src="./images/sell.jpg" alt="Man walking with surfboard into ocean" width="200px">
+                    <button class="showcase__button_active btn-primary btn">SELL</button>
+                    <p class="showcase__p"><span class="showcase__span_bold">A</span>llow us to do the heavy lifting
+                        when it comes to sell your 
+                        board. We will showcase your 
+                        board daily in our shop so 
+                        you have the best chance at 
+                        selling.
+                    </p>    
+                </figure>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer__div">
+            <div class="footer__div_address">
+                <p class="footer__p">Address:</p>
+                <address class="footer__address"> 369 Kaiser Dr. Holden, Oregon 96339</address>
+            </div>
+            <figure>
+                <img src="./images/ResinLogo.png" alt="">
+            </figure>
+            <div class="footer__div_newsletter-form">
+                <h3 class="newsletter__h3"> Sign Up to Our NewsLetter</h3>
+                <form class="footer__form" action="#">
+                    <input class="footer__input_email" type="email" placeholder="Email" aria-label="Email">
+                    <button class="footer__button_form-submit btn-primary btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

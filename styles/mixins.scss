@@ -1,0 +1,21 @@
+@mixin zero-out {
+    margin: 0;
+    padding: 0;
+    
+}
+
+@mixin buttons {
+    height: 50px;
+    width: 100px;
+    background-color: #178CB7;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    box-shadow: 0px 0px 5px 2px #093747 ;
+}
+
+@mixin paragraphs {
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: $primaryTextColor;
+    font-weight: 500;
+}

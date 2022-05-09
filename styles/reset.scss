@@ -1,0 +1,21 @@
+@import "mixins.scss";
+@import "variables";
+
+* {
+    margin: 0;    
+    padding: 0;
+    line-height: 1.75;
+    box-sizing: border-box;
+    font-family: $PrimaryFontFamily;
+}
+
+
+
+
+h1, h2, h3, ul, p, a {
+    @include zero-out;
+    list-style: none;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: $primaryTextColor;
+}
